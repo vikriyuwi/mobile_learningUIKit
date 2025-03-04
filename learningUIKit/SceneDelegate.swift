@@ -23,8 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let vc = UINavigationController(rootViewController: FirstScreen())
         window.rootViewController = vc
-        
-        window.rootViewController = FirstScreen()
+//        window.rootViewController = FirstScreen()
         window.makeKeyAndVisible()
         
         self.window = window
